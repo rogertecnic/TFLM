@@ -1,0 +1,383 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+Arquivo n�o encontrado  - *.cc
+
+Arquivo n�o encontrado  - *.c
+
+
+# Make data base, printed on Thu Jun 02 10:42:55 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+PLATFORMIO_IDE = 2.4.3
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/Users/roger/Desktop/TMP/Projetos-VSCode/TFLM
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = D:\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\roger\AppData\Local\Temp
+# makefile (from 'Make 
+file', line 28)
+CXXFLAGS = $(INC) -O3 -DNDEBUG --std=c++11 -g -DTF_LITE_STATIC_MEMORY
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'Makefile', line 20)
+OBJS := 
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a4b69b8e-b0ef-48ec-84c2-c1f49bc7eebf-sock
+# environment
+VSCODE_CWD = C:\Users\roger\AppData\Local\Programs\Microsoft VS Code
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\roger
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 32)
+LDFLAGS = -lm
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9376_SBKHWCGZZOEMLWVY
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 4)
+SRC_DIRS = .
+# environment
+COMPUTERNAME = NOTE-ROGERIO
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = roger
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\roger\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\NOTE-ROGERIO
+# environment
+ONEDRIVECONSUMER = D:\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = NOTE-ROGERIO
+# makefile (from 'Makefile', line 7)
+MKDIR = mkdir -p
+# makefile (from 'Makefile', line 34)
+TARGET_EXEC = hello_world
+# environment
+MAKELEVEL := 0
+# environment
+PLATFORMIO_PATH = C:\Users\roger\.platformio\python3;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Users\roger\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\roger\AppData\Local\Programs\Python\Python310\;C:\Users\roger\AppData\Local\Microsoft\WindowsApps;C:\Users\roger\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\roger\AppData\Local\GitHubDesktop\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Users\roger\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\roger\AppData\Local\Programs\Python\Python310\;C:\Users\roger\AppData\Local\Microsoft\WindowsApps;C:\Users\roger\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\roger\AppData\Local\GitHubDesktop\bin
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Users\roger\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\roger\AppData\Local\Programs\Python\Python310\;C:\Users\roger\AppData\Local\Microsoft\WindowsApps;C:\Users\roger\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\roger\AppData\Local\GitHubDesktop\bin
+# makefile (from 'Makefile', line 10)
+SRCS = $(shell find $(SRC_DIRS) -name *.cc) $(shell find $(SRC_DIRS) -name *.c)
+# makefile (from 'Makefile', line 1)
+CC = gcc 
+# makefile (from 'Makefile', line 5)
+BUILD_DIR = $(SRC_DIRS)/build
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 30)
+CCFLAGS = $(INC) -O3 -DNDEBUG --std=c99 -g
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\roger\AppData\Local
+# environment
+KINECTSDK20_DIR = C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# makefile (from 'Makefile', line 22)
+INC = -I$(SRC_DIRS) -I$(SRC_DIRS)/third_party/gemmlowp -I$(SRC_DIRS)/third_party/flatbuffers/include -I$(SRC_DIRS)/third_party/ruy
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER 
+ = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\57260b45b5ce88ade670d2481aff797a-1.67.2-main-sock
+# environment
+HOMEPATH = \Users\roger
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\roger\AppData\Roaming
+# environment
+TEMP = C:\Users\roger\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+IDF_TOOLS_PATH = C:\Espressif
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# makefile (from 'Makefile', line 2)
+CXX = g++ 
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0c
+# environment
+MOZ_PLUGIN_PATH = C:\Program Files (x86)\Foxit Software\Foxit PDF Reader\plugins\
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# environment
+ADSK_CLM_WPAD_PROXY_CHECK = FALSE
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 9376
+# environment
+USERDOMAIN_ROAMINGPROFILE = NOTE-ROGERIO
+# variable set hash-table stats:
+# Load=110/1024=11%, Rehash=0, Collisions=33/169=20%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1617976437): 29 files, no impossibilities.
+# . (key d:/Users/roger/Desktop/TMP/Projetos-VSCode/TFLM, mtime 1654096368): 21 files, no impossibilities.
+# C:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1644233556): 8 files, no impossibilities.
+# C:\Users\roger\AppData\Local\Microsoft\WindowsApps (key C:/Users/ro 
+ger/AppData/Local/Microsoft/WindowsApps, mtime 1652721375): 13 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1652964779): 8 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1654112468): 62 files, no impossibilities.
+# C:\Users\roger\AppData\Local\GitHubDesktop\bin (key C:/Users/roger/AppData/Local/GitHubDesktop/bin, mtime 1652799948): 4 files, no impossibilities.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1654108535): 7 files, no impossibilities.
+# C:\Users\roger\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/roger/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1652957201): 4 files, no impossibilities.
+# C:\Users\roger\AppData\Local\Programs\Python\Python310\ (key C:/Users/roger/AppData/Local/Programs/Python/Python310/, mtime 1652300703): 21 files, no impossibilities.
+# C:\Users\roger\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/roger/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1654028030): 51 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1654176099): 111 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1644072358): 155 files, no impossibilities.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1647476197): 6 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1645464446): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1653046136): 2886 files, no impossibilities.
+
+# 3394 files, no impossibilities in 17 directories.
+
+# Implicit Rules
+
+build/%.o: %.c build
+#  recipe to execute (from 'Makefile', line 45):
+	$(MKDIR) $(dir $@)
+	$(CC) $(CCFLAGS) -c $< -o $@
+
+build/%.o: %.cc build
+#  recipe to execute (from 'Makefile', line 49):
+	$(MKDIR) $(dir $@)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+all: buil 
+d/hello_world
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+.PHONY:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 37):
+	clean
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-01 12:20:57
+#  File has been updated.
+#  Successfully updated.
+
+build/hello_world: build
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build/hello_world
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := build
+# automatic
+# | := 
+# automatic
+# < := build
+# automatic
+# ^ := build
+# automatic
+# ? := build
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 53):
+	$(CXX) $(LDFLAGS) $(OBJS) -o $@
+
+build:
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-01 15:09:36
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 42):
+	$(MKDIR) $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 56):
+	rm -rf $(BUILD_DIR)
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/23=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 7 (6) / strings = 3365 / storage = 50044 B / avg = 14 B
+# current buf: size = 8 
+174 B / used = 1045 B / count = 79 / avg = 13 B
+# other used: total = 41870 B / count = 3286 / avg = 12 B
+# other free: total = 45 B / max = 11 B / min = 4 B / avg = 7 B
+
+# strcache performance: lookups = 3436 / hit rate = 2%
+# hash-table stats:
+# Load=3365/8192=41%, Rehash=0, Collisions=1123/3436=33%
+# Finished Make data base on Thu Jun 02 10:42:55 2022
+
+ 

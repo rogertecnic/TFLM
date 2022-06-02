@@ -1,5 +1,13 @@
 # Tensorflow Lite Micro
 
+## repositorio rogertecnic/TFLM
+
+> ✅ Compila para rodar no windows, compila o hello_world original em um executável .exe que da pra rodar no windows. Compilado usando o git bash com o mingw
+>
+> Estudo o "Makefile" em progresso.
+
+---
+
 [![Status](https://storage.googleapis.com/tensorflow-kokoro-build-badges/tflite-micro.svg)](https://storage.googleapis.com/tensorflow-kokoro-build-badges/tflite-micro.html)
 
 EN|[简中](Readme_CN.md)

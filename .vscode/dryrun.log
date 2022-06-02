@@ -1,0 +1,11 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+Arquivo n�o encontrado  - *.cc
+
+Arquivo n�o encontrado  - *.c
+
+make.exe: Entering directory 'd:/Users/roger/Desktop/TMP/Projetos-VSCode/TFLM'
+mkdir -p build
+ 
+g++  -lm  -o build/hello_world
+make.exe: Leaving directory 'd:/Users/roger/Desktop/TMP/Projetos-VSCode/TFLM'
+ 

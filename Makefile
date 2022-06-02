@@ -1,17 +1,22 @@
-CC = gcc
-CXX = g++
+CC = gcc #compilador de C
+CXX = g++ #compilador de c++
 
 SRC_DIRS = .
 BUILD_DIR = $(SRC_DIRS)/build
 
 MKDIR = mkdir -p
 
+# SRCS é o nome de todos os arquivos .cc e .c caminho completo desde o diretório raiz do projeto
 SRCS = $(shell find $(SRC_DIRS) -name *.cc) $(shell find $(SRC_DIRS) -name *.c)
 
-$(SRCS) := $(addprefix $(SRC_DIRS)/, $(SRCS))
+# não precisa dessa linha
+# $(SRCS) := $(addprefix $(SRC_DIRS)/, $(SRCS))
 
+# substitui todas as extensões .cc e .c por .o da variavel SRCS
+# ou seja, tem o nome e caminho de todos os arquivos .o que serão gerados pelos arquivos source
 OBJS = $(patsubst %.cc,%.o,$(patsubst %.c,%.o,$(SRCS)))
 
+# adiciona o caminho da pasta build "build/" aos objetos
 OBJS := $(addprefix $(BUILD_DIR)/, $(OBJS))
 
 INC=\
